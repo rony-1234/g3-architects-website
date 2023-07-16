@@ -1,0 +1,33 @@
+/* work sans font set up */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Golos+Text:wght@500;700&family=Labrada&family=Lato:ital,wght@0,400;1,400;1,700&family=Lora:ital,wght@1,500&family=Open+Sans:ital,wght@1,600&family=Roboto+Condensed&family=Ubuntu&family=Work+Sans:wght@400;500;600&display=swap');
+*{font-family: 'Ubuntu', sans-serif;
+font-family: 'Work Sans', sans-serif; }
+/* header */
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #131313;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+ 
+}
+nav > ul{
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    margin-right: 30px;
+}
